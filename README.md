@@ -17,23 +17,7 @@ projet_ML_DL/
 └── data/                                  # Données téléchargées (généré à l'exécution)
 ```
 
----
 
-## 🎯 Étapes Couvertes (Actuel)
-
-- ✅ **1. Problème** : contexte métier et objectifs
-- ✅ **2. Données** : source DVF, description, limitations
-- ✅ **3. Analyse Exploratoire (EDA)** : visualisations, insights clés, clustering exploratoire
-
-## 📋 Étapes à Venir (Sections 4-8)
-
-- ⏳ **4. Préparation** : pipeline sklearn, gestion NA, encodage
-- ⏳ **5. Modélisation** : Linear Regression, Random Forest, Gradient Boosting
-- ⏳ **6. Évaluation** : métriques (MAE, RMSE, R²), validation croisée
-- ⏳ **7. Analyse** : interprétation des résultats
-- ⏳ **8. Conclusion** : recommandations et travaux futurs
-
----
 
 ## 🚀 Démarrage Rapide
 
@@ -80,23 +64,3 @@ Après exécution du notebook, complétez cette section avec vos observations :
 - Corrélations entre surface, prix total et prix au m²
 - Segments de marché (clusters non supervisés)
 - Tendances temporelles
-
----
-
-## 📝 Notes Importantes
-
-- **Pas de fuite de données** : le pipeline train/test sera implémenté dans la phase 4
-- **Données publiques** : aucune donnée sensible, usage libre
-- **Outliers** : conservés dans l'EDA pour analyse, seront gérés proprement au nettoyage
-
----
-
-## 👥 Équipe & Contact
-
-*À compléter avec vos informations*
-
----
-
-## 📄 Licence
-
-Données DVF publiques (licence ODbL 1.0, Data.gouv)\n
