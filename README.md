@@ -1,44 +1,35 @@
-# 🏠 Projet ML - Prédiction des Prix Immobiliers à Paris
+# Projet ML - Prédiction des Prix Immobiliers à Paris
 
-## 📋 Description
+## Description
 
-Projet d'apprentissage automatique visant à analyser et prédire les prix immobiliers à Paris en utilisant les transactions DVF (Données de Valeur Foncière) issues de **Data.gouv**.
+Projet d'apprentissage automatique visant à analyser et prédire les prix immobiliers à Paris en utilisant les transactions DVF (Données de Valeur Foncière) issues de **Data.gouv**. Nous avons choisis ce sujet puisque nous avons un projet en Data Architecture, on trouvait cela intéressant de relier les deux. Nous avions donc les données à l'avance, et nous savions déjà par où aller surtout pour l'EDA.
 
 **Objectif métier** : Construire un modèle robuste pour expliquer et prédire le **prix au m²** des appartements parisiens, en fonction des caractéristiques du bien et de la localisation.
 
 ---
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 ```
 projet_ML_DL/
 ├── README.md                              # Ce fichier
-├── projet_immobilier_paris_eda.ipynb     # Notebook principal (EDA)
+├── projet_immobilier_paris_eda.ipynb     # Notebook EDA
+├── projet_immobilier_paris_modeling.ipynb
 └── data/                                  # Données téléchargées (généré à l'exécution)
 ```
 
 
 
-## 🚀 Démarrage Rapide
+## Démarrage
 
 ### Prérequis
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-### Lancer le Notebook
-
-1. Ouvrir le notebook Jupyter
-2. Exécuter les cellules **séquentiellement**
-3. Le notebook télécharge automatiquement les données DVF
-
-```bash
-jupyter notebook projet_immobilier_paris_eda.ipynb
-```
-
 ---
 
-## 📊 Source de Données
+##  Source de Données
 
 **Provenance** : Geo-DVF - Data.gouv (transactions immobilières françaises)
 
@@ -55,7 +46,7 @@ jupyter notebook projet_immobilier_paris_eda.ipynb
 
 ---
 
-## 📌 Points Clés EDA
+## Points Clés EDA
 
 Après exécution du notebook, complétez cette section avec vos observations :
 
